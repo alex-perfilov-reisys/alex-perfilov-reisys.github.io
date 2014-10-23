@@ -11,6 +11,10 @@ $(function () {
         $('#result').html(result);
     });
 
+    $('#rewardForm').submit(function () {
+        return false;
+    })
+
     var amounts = [50, 100, 150, 155, 175, 190, 200, 210, 220, 250, 275, 325];
 
     function jew(amount) {

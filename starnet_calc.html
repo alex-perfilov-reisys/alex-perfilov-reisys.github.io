@@ -10,22 +10,19 @@
     <script src="./javascripts/starnet.js"></script>
     <script src="./javascripts/ga.js"></script>
     <link href="./stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link href="./stylesheets/bootstrap-responsive.min.css" rel="stylesheet">
     <link href="./stylesheets/starnet.css" rel="stylesheet">
 
 </head>
 <body>
+
 <div class="container">
 
+    <form id="rewardForm" class="form-reward">
+        <p class="text-center"><img src="./images/starnet_logo.png"/></p>
+        <input id="points" type="text" autocomplete="off" class="input-block-level" placeholder="Number of points">
 
-    <form class="form-reward">
-        <div class="text-center row logo">
-            <img src="./images/starnet_logo.png"/>
-        </div>
-        <div class="row">
-            <input id="points" type="text" class="input-block-level" placeholder="Number of points">
-
-            <div id="result"></div>
-        </div>
+        <div id="result"></div>
     </form>
 
 </div>
