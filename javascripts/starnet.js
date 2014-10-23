@@ -19,6 +19,10 @@ $(function () {
 
     function jew(amount) {
         var result = {coupons: [], rest: amount}
+        if (amount > 1000) {
+            result.coupons = ['fatality'];
+            return result;
+        }
         if (amount < amounts[0]) {
             return result;
         }
